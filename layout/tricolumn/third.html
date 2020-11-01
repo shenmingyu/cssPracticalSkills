@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三栏布局</title>
+  <style>
+    #main {
+      float: left;
+      width: 100%;
+    }
+
+    .content {
+      margin: 0 200px;
+      height: 100px;
+      background: red;
+    }
+
+    #left {
+      float: left;
+      width: 190px;
+      height: 100px;
+      margin-left: -100%;
+      background: blue;
+    }
+
+    #right {
+      float: left;
+      height: 100px;
+      width: 190px;
+      margin-left: -190px;
+      background: green;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="main">
+    <div class="content"></div>
+  </div>
+  <div id="left"></div>
+  <div id="right"></div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三栏布局</title>
+  <style>
+    #middle {
+      height: 100px;
+      margin: 0 200px;
+      background: red;
+    }
+
+    #left {
+      float: left;
+      width: 190px;
+      background: blue;
+      height: 100px;
+    }
+
+    #right {
+      float: right;
+      width: 190px;
+      background: green;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 使用float的方法来进行三栏布局的时候，由于 float属性的特性，middle块必须放在最后 -->
+  <div id="left"></div>
+  <div id="right"></div>
+  <div id="middle"></div>
+</body>
+
+</html>
